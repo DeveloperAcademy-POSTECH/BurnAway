@@ -16,7 +16,7 @@
 		0748264E2A07AFC0007C963A /* FireProjectSecondUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0748264D2A07AFC0007C963A /* FireProjectSecondUITests.swift */; };
 		074826502A07AFC0007C963A /* FireProjectSecondUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0748264F2A07AFC0007C963A /* FireProjectSecondUITestsLaunchTests.swift */; };
 		0748265D2A07C2B9007C963A /* FireScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0748265C2A07C2B9007C963A /* FireScreenView.swift */; };
-		0748265F2A07CBC9007C963A /* MainControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0748265E2A07CBC9007C963A /* MainControler.swift */; };
+		0748265F2A07CBC9007C963A /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0748265E2A07CBC9007C963A /* MainController.swift */; };
 		074826612A07CE5A007C963A /* QuestionPagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074826602A07CE5A007C963A /* QuestionPagesView.swift */; };
 		074826672A0A4082007C963A /* GroupedTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074826662A0A4082007C963A /* GroupedTableView.swift */; };
 		074826692A0A4B2B007C963A /* StorageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074826682A0A4B2B007C963A /* StorageView.swift */; };
@@ -84,7 +84,7 @@
 		0748264D2A07AFC0007C963A /* FireProjectSecondUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireProjectSecondUITests.swift; sourceTree = "<group>"; };
 		0748264F2A07AFC0007C963A /* FireProjectSecondUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireProjectSecondUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0748265C2A07C2B9007C963A /* FireScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireScreenView.swift; sourceTree = "<group>"; };
-		0748265E2A07CBC9007C963A /* MainControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainControler.swift; sourceTree = "<group>"; };
+		0748265E2A07CBC9007C963A /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
 		074826602A07CE5A007C963A /* QuestionPagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionPagesView.swift; sourceTree = "<group>"; };
 		074826662A0A4082007C963A /* GroupedTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupedTableView.swift; sourceTree = "<group>"; };
 		074826682A0A4B2B007C963A /* StorageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageView.swift; sourceTree = "<group>"; };
@@ -167,7 +167,7 @@
 				074826852A0B8520007C963A /* Info.plist */,
 				074826322A07AFBF007C963A /* FireProjectSecondApp.swift */,
 				074826342A07AFBF007C963A /* ContentView.swift */,
-				0748265E2A07CBC9007C963A /* MainControler.swift */,
+				0748265E2A07CBC9007C963A /* MainController.swift */,
 				074826602A07CE5A007C963A /* QuestionPagesView.swift */,
 				074826742A0B6E0E007C963A /* CrumplePageView.swift */,
 				074826732A0B6DD6007C963A /* FireAnimation */,
@@ -431,7 +431,7 @@
 				074826672A0A4082007C963A /* GroupedTableView.swift in Sources */,
 				074826332A07AFBF007C963A /* FireProjectSecondApp.swift in Sources */,
 				0748265D2A07C2B9007C963A /* FireScreenView.swift in Sources */,
-				0748265F2A07CBC9007C963A /* MainControler.swift in Sources */,
+				0748265F2A07CBC9007C963A /* MainController.swift in Sources */,
 				074826692A0A4B2B007C963A /* StorageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -597,6 +597,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FireProjectSecond/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BurnAway;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Face iD를 사용하려면 권한이 허용되어야 합니다.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -606,7 +608,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-76567.FireProjectSecond";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Baron.FireProjectSecond;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -626,6 +628,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FireProjectSecond/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BurnAway;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Face iD를 사용하려면 권한이 허용되어야 합니다.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -635,7 +639,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-76567.FireProjectSecond";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Baron.FireProjectSecond;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

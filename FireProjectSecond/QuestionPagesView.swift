@@ -121,6 +121,7 @@ struct QuestionPagesView: View {
                             message: Text("작성된 내용은 임시저장 됩니다"),
                             primaryButton: .default(Text("나가기").foregroundColor(.white)) {
                                 tapPencilButton.toggle()
+                                selectedTab = 0
                                 UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
                             },
                             secondaryButton: .cancel(Text("취소"))
@@ -193,6 +194,7 @@ struct QuestionPagesView: View {
                                 answerTexts2 = ""
                                 answerTexts3 = ""
                                 answerTexts4 = ""
+                                selectedTab = 0
                                 HapticManager.instance.impact(style: .soft)
                                
                                 UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)

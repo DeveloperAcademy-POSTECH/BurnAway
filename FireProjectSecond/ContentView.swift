@@ -51,7 +51,7 @@ struct ContentView: View {
                 //                ThrowFireScreenView(Finale: $Finale)
                 //                    .zIndex(Double(Finale == true ? 4 : -1))
                 
-                MainControler(onTap: $onTap, tapPencilButton: $tapPencilButton, isHistoryLinkActive: $isHistoryLinkActive)
+                MainController(onTap: $onTap, tapPencilButton: $tapPencilButton, isHistoryLinkActive: $isHistoryLinkActive)
                     .zIndex(Double(onTap == true ? 1 : 2))
                     .opacity(0.8)
                     .onTapGesture{
